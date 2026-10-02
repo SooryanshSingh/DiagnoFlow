@@ -1,0 +1,53 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+
+venv/
+env/
+.venv/
+myenv/
+
+# Environment variables / secrets
+
+.env
+.env.*
+!.env.example
+
+# Django
+
+*.log
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+media/
+
+# Generated API documentation
+
+schema.yml
+schema.yaml
+
+# IDEs / editors
+
+.vscode/
+.idea/
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Docker
+
+docker-compose.override.yml
+EOF
